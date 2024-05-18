@@ -1,0 +1,215 @@
+body{
+    background-color:#F0F2F5 ;
+    margin: 0;
+    padding: 0;
+}
+.container-1{
+    background-color: #FFFF;
+    display: flex;
+    justify-content: space-around;
+}
+.container-1 div:nth-child(2){
+    margin-left: 20%;
+}
+.container-1 div:nth-child(3){
+    margin-left: 18%;
+}
+.blocks-1{
+    flex-grow: 1;
+}
+.container-2{
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+}
+.block-2{
+    background-color: #FFFF;
+    height: 20em;
+    width: 40em;
+}
+.sub-blocks-2{
+    height: 10em;
+    width: 10em;
+    margin-left: 15em;
+    margin-top: 2em;
+    border-radius: 50%;
+}
+.blocks-1 form {
+    margin-top: 8px;
+}
+.search-box{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #F0F2F5;
+    padding-left: 10px;
+    outline: none;
+    margin-top: 2px;
+}
+.sub-blocks-2 img{
+    position: relative;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+.sub-blocks-2-1{
+    margin-left: 23em;
+    margin-top: -50px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
+.sub-blocks-2-1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+.sub-blocks-2-1 form{
+    margin: 0;
+    position: relative;
+}
+.sub-blocks-2-2{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.sub-blocks-2-3{
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+}
+.sub-blocks-2-3 form input[type="submit"]{
+    background-color: #0077b6;
+    border: none;
+    color: #ffff;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.container-3{
+    background-color: #FFFF;
+    margin-top: 1%;
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    display: flex;
+    justify-content: center;
+}
+.block-3{
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: cadetblue;
+
+}
+.container-4{
+    background-color: #FFFF;
+    margin-top: 1%;
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    display: flex;
+    justify-content: center;
+}
+.sub-block-4{
+    height: 10em;
+    width: 20em;
+}
+.sub-block-4 form{
+    margin-left: 7em;
+}
+.sub-block-4 input[type="file"]{
+    display: none;
+}
+.sub-block-4 form input[type="submit"]{
+    background-color: #0077b6;
+    border: none;
+    color: #ffff;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.container-5{
+    background-color: #FFFF;
+    margin-top: 1%;
+    margin-left: 26.5%;
+    margin-right: 26.5%;  
+    margin-bottom: 4%; 
+}
+.sub-block-5{
+    display: flex;
+}
+.sub-block-5-1{
+    flex-grow: 1;
+    
+}
+
+/*.sub-block-5-2{
+
+}
+.sub-block-5-3{
+
+}*/
+.sub-block-5-1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    position: relative;
+}
+.sub-block-5-1 p{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 95px;
+}
+.sub-block-5-1 p:nth-child(3){
+    position: relative;
+    margin-top: -15px;
+    margin-left: 95px;
+}
+/*.sub-block-5-1:nth-child(2){
+    background-color: yellowgreen;
+    
+}*/
+.sub-block-5-1 form{
+    float: right;
+}
+.sub-block-5-1 form label{
+    margin: 5px;
+}
+.sub-block-5-1 form label .delete{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.sub-block-5-1 form input[type="submit"]{
+display: none;
+}
+.sub-block-5-2{
+    background-color: #0077b6;
+    margin-top:2%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.sub-block-5-2:nth-child(2){
+    margin-top:2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+.sub-block-5{
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: lightgray;
+}
+.sub-block-5-3{
+    background-color: brown;
+    margin-top:2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10px;
+}

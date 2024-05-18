@@ -1,0 +1,39 @@
+body{
+    background-color: #F0F2F5;
+}
+.container{
+    margin-right: 9%;
+    margin-top: 11%;
+
+    display: flex;
+
+}
+.col p{
+    font-size: 24px;
+    margin-left: 28px;
+}
+.col .card
+{
+    margin-left: 100px;
+    border-radius: 3%;
+}
+#submit{
+    width: 340px;
+}
+#forget{
+    margin-top: 10px;
+    margin-left: 95px;
+}
+#caccount{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 200px;
+    background-color: #42B72A;
+    border: #42B72A;
+    font-size: 18px;
+}
+span{
+    margin-left: 140px;
+    font-size: 14px;
+}
+
