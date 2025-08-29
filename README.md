@@ -42,4 +42,4 @@ For WAMP: www/Php Pic/
 Open browser and visit:
 
 🔐 User Flow
-[Login] → [Registration] → [Profile Management] → [Upload Photos] → [News Feed]
+[Login] → [Registration] → [Profile Management] → [Upload Photos] → [Feed]
