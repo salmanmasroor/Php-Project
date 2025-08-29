@@ -5,32 +5,6 @@ The app allows users to **register, login, manage profiles, upload photos, and i
 
 ---
 
-## 📂 Folder Structure  
-├── controller/ # Business logic (Controllers)
-│ ├── delete_account.php
-│ ├── forget_password.php
-│ ├── logic_login.php
-│ ├── logic_profile.php
-│ └── logic_registration.php
-├── model/ # Database & Data models
-│ ├── database.php # PDO database configuration
-│ ├── fixedpic/ # Default profile pictures
-│ └── upload/ # User-uploaded images
-├── view/ # Frontend Views (UI)
-│ ├── delete_account.php
-│ ├── forget_password.php
-│ ├── login.php # Login page
-│ ├── profile.php # User profile page
-│ ├── registration.php # Registration page
-│ ├── welcome.php # Main news feed page
-│ ├── desgin/ # CSS stylesheets
-│ ├── pics/ # Static icons/images
-│ └── upload/ # Upload directory (empty)
-└── README.md # Documentation
-
-
----
-
 ## ⚙️ Prerequisites  
 
 - [XAMPP](https://www.apachefriends.org/) / WAMP / MAMP installed  
