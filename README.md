@@ -41,17 +41,5 @@ For WAMP: www/Php Pic/
 4. Run the Application
 Open browser and visit:
 
-bash
-
-http://localhost/Php Pic/view/login.php
-🛢️ Database Configuration
-Located in model/database.php:
-
-
-Database: facebook
-User:     root
-Password: (empty)
-Uses PDO (PHP Data Objects) for secure database connection.
-
 🔐 User Flow
 [Login] → [Registration] → [Profile Management] → [Upload Photos] → [News Feed]
