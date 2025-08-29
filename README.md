@@ -1,67 +1,56 @@
 # 🌐 PHP Social Media Web Application  
 
-A **Facebook-inspired social media platform** built with **PHP** using the **MVC (Model-View-Controller)** design pattern.  
-The app allows users to **register, login, manage profiles, upload photos, and interact with a news feed** — simulating core features of a modern social network.  
+A **Facebook-inspired social media platform** built with **PHP** using the **MVC (Model-View-Controller)** architecture.  
+This project simulates a mini social network with features like **user registration, login, profile management, photo uploads, and a news feed**.  
 
 ---
 
 ## ⚙️ Prerequisites  
 
+Before running the project, ensure you have:  
 - [XAMPP](https://www.apachefriends.org/) / WAMP / MAMP installed  
 - MySQL database running  
-- Web browser (Chrome/Firefox recommended)  
+- A modern web browser (Chrome/Firefox recommended)  
 
 ---
 
 ## 🚀 Setup & Run  
 
-1. Start **Apache** and **MySQL** from XAMPP/WAMP/MAMP control panel  
-2. Open **phpMyAdmin** and create a new database:  
-   ```sql
-   CREATE DATABASE facebook;
+### 1. Start Server  
+- Open **XAMPP/WAMP/MAMP** control panel  
+- Start **Apache** and **MySQL**  
 
+### 2. Database Setup  
+- Go to [phpMyAdmin](http://localhost/phpmyadmin)  
+- Create a new database:  
+  ```sql
+  CREATE DATABASE facebook;
+Create the following tables:
 
-Create required tables:
+registration → Stores user account data
 
-registration (user accounts)
+image_data → Stores uploaded photos
 
-image_data (photo uploads)
-
-Copy project folder into your web server document root:
+3. Project Setup
+Copy project folder into your web server root:
 
 For XAMPP: htdocs/Php Pic/
 
 For WAMP: www/Php Pic/
 
-Access the app in your browser:
+4. Run the Application
+Open browser and visit:
 
+bash
+Copy code
 http://localhost/Php Pic/view/login.php
-
 🛢️ Database Configuration
+Located in model/database.php:
 
-The app uses PDO (PHP Data Objects) for secure database connection.
-
-Default settings in model/database.php:
-
-Host: localhost
-
+php
+Copy code
+Host:     localhost
 Database: facebook
-
-User: root
-
+User:     root
 Password: (empty)
-
-✨ Features
-
-✔️ Secure user registration & login
-✔️ Password hashing with password_hash()
-✔️ Session-based authentication
-✔️ Profile management (update & delete account)
-✔️ Photo upload functionality
-✔️ CRUD operations for users & posts
-✔️ Responsive Bootstrap-powered design
-✔️ Input validation & sanitization
-✔️ Social media–style news feed
-
-🔐 Typical User Flow
-[Login] → [Registration] → [Profile Management] → [Upload Photos] → [Feed]
+Uses PDO (PHP Data Objects) for secure database connection.
